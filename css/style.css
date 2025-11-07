@@ -333,6 +333,15 @@ body {
     border-radius: 5px;
     background-color: #F0F0F4;
     font-weight: 700;
+    font-family: 'SFProDisplay-Bold', sans-serif;
+}
+
+.search__content-item {
+    display: none;
+}
+
+.search__content-item-active {
+    display: block;
 }
 
 .search__content-form {
@@ -347,6 +356,7 @@ body {
     font-size: 16px;
     line-height: 19px;
     width: 100%;
+    outline: none;
 }
 
 .search__content-input::placeholder {
