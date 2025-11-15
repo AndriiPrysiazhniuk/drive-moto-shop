@@ -595,7 +595,9 @@ body {
     font-family: 'Barlow', sans-serif;
     margin-bottom: 25px;
 }
-
+.products{
+    margin-bottom: 80px;
+}
 .products__tab + .products__tab {
     margin-left: 50px;
 }
@@ -638,7 +640,7 @@ body {
 
 .product-more {
     text-align: center;
-    margin: 35px 0 80px;
+    margin: 35px 0 0;
 }
 
 .product__more-link {
@@ -648,4 +650,8 @@ body {
     text-transform: uppercase;
     background-color: #F0F0F4;
     padding: 16px 43px;
+}
+
+.banner{
+    margin-bottom: 70px;
 }
