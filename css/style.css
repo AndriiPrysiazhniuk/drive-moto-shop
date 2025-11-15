@@ -735,11 +735,41 @@ body {
 .footer__top-social.footer__top-item {
     width: 250px;
 }
-.social-list{
+
+.social-list {
     display: flex;
     align-items: center;
     height: 100%;
 }
-.social-list__item + .social-list__item{
+
+.social-list__item + .social-list__item {
     margin-left: 30px;
+}
+
+.breadcrumbs {
+    margin-bottom: 40px;
+}
+
+.breadcrumbs__list-item {
+    display: inline-block;
+    position: relative;
+    padding-right: 16px;
+    margin-right: 10px;
+    line-height: 18;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+.breadcrumbs__list-item::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    background-image: url("../images/link-arrow.svg");
+    width: 6px;
+    height: 9px;
+    bottom: 5px;
+}
+
+.breadcrumbs__list-item:last-child::after {
+    display: none;
 }
